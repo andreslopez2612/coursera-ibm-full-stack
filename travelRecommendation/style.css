@@ -105,3 +105,32 @@ nav ul li a {
   width: 100px;
   color: white;
 }
+
+/* Main Content Styles */
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  min-height: 80vh;
+  margin: auto;
+  width: 70%;
+}
+
+main section {
+  background-color: rgba(0, 0, 0, 0.37);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 50%;
+}
+
+main h1 {
+  color: var(--text-color);
+  font-size: 60px;
+}
+main p {
+  color: var(--text-color);
+  font-size: 18px;
+  line-height: 1.6;
+}
